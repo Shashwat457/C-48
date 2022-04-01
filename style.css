@@ -1,0 +1,93 @@
+#Problem {
+    color: aqua;
+}
+
+body {
+
+    background: linear-gradient(orange 0%, red 100%);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#para1 {
+
+    color: yellow;
+    max-width: 600px;
+}
+
+#menu {
+
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    font-size: 25px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
+    padding-left: 350px;
+    position: fixed;
+}
+
+.items {
+
+    float: left;
+    color: white;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-size: 20px;
+    background: none;
+    padding-bottom: -500px;
+
+}
+
+.items:hover {
+    text-decoration: underline;
+    font-size: 25px;
+    background-color: aqua;
+
+}
+
+.header {
+
+    color: aqua;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.line {
+
+
+    height: 6px;
+    background-color: aqua;
+    width: 300px;
+    margin: 8px auto;
+    border-radius: 30px;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+.header1 {
+
+    color: aqua;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+}
+
+#marquee {
+
+    font-size: 40px;
+}
+
+.text{
+
+    font-family: 'Fjalla One', sans-serif;
+    color: aqua
+}
